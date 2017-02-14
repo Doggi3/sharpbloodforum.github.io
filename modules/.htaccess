@@ -1,0 +1,8 @@
+DirectoryIndex index.php
+AdddefaultCharset UTF-8
+php_flag display_errors On
+php_value error_reporting 7
+RewriteEngine On
+
+#Редиректы
+RewriteRule ^news$ /news.php  [L]
